@@ -1,5 +1,5 @@
-/* System Administrator
- * 
+/* Usuarios del programa
+ * Define si es Administrador y si esta Logeado al Sistema
  * 
  * 
  */
@@ -9,16 +9,16 @@ package la.tiendita;
  *
  * @author HsCanales <00136317@uca.edu.sv>
  */
-public class Admon {
+public class User {
     
     private String nombre,username,contraseña;
     private boolean logged;
     
-    public Admon(){
+    public User(){
         logged=false;
     }
     
-    public Admon(String nombre, String username, String contraseña){
+    public User(String nombre, String username, String contraseña){
         this.nombre=nombre;
         this.username=username;
         this.contraseña=contraseña;

@@ -21,8 +21,18 @@ public class Empresa {
         this.Email = Email;
         this.Telefono = Telefono;
     }
-
     
+    public Empresa(){
+        
+    }
+    
+    void cargarLista(){
+        //Desde archivo cargar los diferentes productos que ofrece la empresa y cargarlos en una lista
+        Producto producto= new Producto();
+        if(producto!=null){
+            lista.add(producto);
+        }
+    }
     
     
     public ArrayList<Producto> getLista() {
