@@ -12,7 +12,7 @@ package la.tiendita;
 public class User {
     
     private String nombre,username,contraseña;
-    private boolean logged;
+    private boolean logged,admin;
     
     public User(){
         logged=false;
@@ -24,6 +24,9 @@ public class User {
         this.contraseña=contraseña;
     }
 
+    public boolean isAdmin(){
+        return admin;
+    }
     public boolean isLogged() {
         return logged;
     }
@@ -49,5 +52,7 @@ public class User {
     }
     
     
-    
+    public void login(){
+        
+    }
 }

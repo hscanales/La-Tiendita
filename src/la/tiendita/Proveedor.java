@@ -28,9 +28,7 @@ public class Proveedor {
     }    
     
     public void cargarLista(){
-        //Carga una lista de empresas con las que trabaja el proveedor
-        Empresa empresa= new Empresa();
-        listadeEmpresas.add(empresa);
+
     }
     
     public ArrayList<Empresa> getLista(){
