@@ -11,9 +11,12 @@ package la.tiendita;
  */
 public class SDVC {
     int cantidadProductos,dinero,capital,correlativo;
-    Producto producto;
     String nombre,fecha;
     Inventario inventario;
+    
+    public SDVC(){
+        this.inventario= new Inventario();
+    }
     
     public void Venta(){
         
@@ -23,6 +26,10 @@ public class SDVC {
     }
     
     public void darFactura(){
+        
+    }
+    
+    public void consultarInventario(){
         
     }
 }

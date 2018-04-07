@@ -18,7 +18,13 @@ public class LaTiendita {
 
    
     public static void main(String[] args) {
+       SDVC Sistema= new SDVC();
+       User user= new User();
+       user.login();
        
+       if(user.isAdmin() && user.isLogged()){
+           //Verificamos si el usuario es administrador e inicio sesion en el sistema
+       }
         
         
         

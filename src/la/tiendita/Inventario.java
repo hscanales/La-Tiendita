@@ -20,10 +20,36 @@ public class Inventario {
     }
     
     
-    public void add(Producto producto){
-        if(producto!=null){
-        inventario.add(producto);    
-        }
+   public void CargarInventario(){
+       
         
     }
+   
+   public void DesabilitarProducto(Producto producto){
+       
+   }
+   
+   public void CargarProducto(Producto producto){
+       
+   }
+   
+   public void DescargarProducto(Producto producto){
+       
+   }
+   
+   public void BorrarProducto(Producto producto){
+       
+   }
+   
+   public void HabilitarProducto(Producto producto){
+       
+   }
+   
+   public void VerificarProducto(int CodigoProducto){
+       
+   }
+   
+   public void ModificarProducto(int CodigoProducto){
+       
+   }
 }

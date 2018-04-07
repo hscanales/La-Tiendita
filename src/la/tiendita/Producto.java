@@ -11,19 +11,20 @@ package la.tiendita;
  */
 public class Producto {
     private String nombre;
-    private int costo,preciodeventa,cantidad;
+    private int costo,preciodeventa,cantidad,codigo;
     boolean seVende;
 
     
     public Producto() {
     }
 
-    public Producto(String nombre, int cantidad, int costo, int preciodeventa, boolean seVende) {
+    public Producto(String nombre, int cantidad, int costo, int preciodeventa,int codigo, boolean seVende) {
         this.nombre = nombre;
         this.cantidad = cantidad;
         this.costo = costo;
         this.preciodeventa = preciodeventa;
         this.seVende = seVende;
+        this.codigo= codigo;
     }
 
     public boolean isSeVende() {
@@ -64,6 +65,14 @@ public class Producto {
 
     public void setPreciodeventa(int preciodeventa) {
         this.preciodeventa = preciodeventa;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
     
     
